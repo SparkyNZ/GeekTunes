@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SIDPlayPaul - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Paul\LOCALS~1\Temp\RSPA7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/SIDPlayPaul.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"W:\SIDPlayPaul\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Paul\LOCALS~1\Temp\RSPA7.tmp" 
+Creating temporary file "C:\DOCUME~1\Paul\LOCALS~1\Temp\RSPA8.tmp" with contents
+[
+sdl.lib sdlmain.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/SIDPlayPaul.pdb" /debug /machine:I386 /out:"Debug/SIDPlayPaul.exe" /pdbtype:sept 
+.\Debug\config.obj
+.\Debug\envelope.obj
+.\Debug\event.obj
+.\Debug\extfilt.obj
+.\Debug\filter.obj
+.\Debug\IconInfo.obj
+.\Debug\InfoFile.obj
+.\Debug\main.obj
+.\Debug\mixer.obj
+.\Debug\mos6510.obj
+.\Debug\mos6526.obj
+.\Debug\mos656x.obj
+.\Debug\MUS.obj
+.\Debug\p00.obj
+.\Debug\player.obj
+.\Debug\pot.obj
+.\Debug\PP20.obj
+.\Debug\prg.obj
+.\Debug\PSID.obj
+.\Debug\psiddrv.obj
+.\Debug\reloc65.obj
+".\Debug\resid-builder.obj"
+.\Debug\resid.obj
+.\Debug\sid.obj
+.\Debug\sid6526.obj
+.\Debug\sidplay2.obj
+.\Debug\SidTune.obj
+.\Debug\SidTuneTools.obj
+.\Debug\version.obj
+.\Debug\voice.obj
+.\Debug\wave.obj
+.\Debug\wave6581__ST.obj
+.\Debug\wave6581_P_T.obj
+.\Debug\wave6581_PS_.obj
+.\Debug\wave6581_PST.obj
+.\Debug\wave8580__ST.obj
+.\Debug\wave8580_P_T.obj
+.\Debug\wave8580_PS_.obj
+.\Debug\wave8580_PST.obj
+.\Debug\xsid.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\Paul\LOCALS~1\Temp\RSPA8.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+SIDPlayPaul.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
